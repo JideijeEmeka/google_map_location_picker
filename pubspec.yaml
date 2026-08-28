@@ -1,5 +1,5 @@
 name: google_map_location_picker_plus
-description: '🌍 Map location picker for flutter Based on google_maps_flutter. Maintained fork of google_map_location_picker with updated Dart/Flutter SDK support and dependencies.'
+description: 'Map location picker for flutter based on google_maps_flutter. Maintained fork of google_map_location_picker with updated Dart/Flutter SDK support and dependencies.'
 version: 1.0.0
 homepage: https://github.com/JideijeEmeka/google_map_location_picker
 repository: https://github.com/JideijeEmeka/google_map_location_picker
