@@ -1,11 +1,9 @@
-name: google_map_location_picker
-description: '🌍 Map location picker for flutter Based on google_maps_flutter'
-version: 4.1.8
-homepage: https://github.com/astravest/google_map_location_picker
+name: google_map_location_picker_plus
+description: '🌍 Map location picker for flutter Based on google_maps_flutter. Maintained fork of google_map_location_picker with updated Dart/Flutter SDK support and dependencies.'
+version: 1.0.0
+homepage: https://github.com/JideijeEmeka/google_map_location_picker
+repository: https://github.com/JideijeEmeka/google_map_location_picker
 
-publish_to: none
-
-#  flutter pub pub publish --dry-run
 environment:
     sdk: '>=3.1.0 <4.0.0'
     flutter: '>=2.8.0'
@@ -44,7 +42,7 @@ flutter:
             # https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms
             # -------------------
             android:
-                package: com.astravest.google_map_location_picker
+                package: com.platnova.google_map_location_picker_plus
                 pluginClass: GoogleMapLocationPickerPlugin
         # -------------------
 

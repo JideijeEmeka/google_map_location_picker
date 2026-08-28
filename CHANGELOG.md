@@ -1,3 +1,9 @@
+## 1.0.0
+
+* Forked and republished as `google_map_location_picker_plus` since the original `google_map_location_picker` has had no release since 2021 and no repository activity since 2023.
+* Updated Dart SDK constraint and dependencies: `google_maps_flutter`, `geolocator`, `provider`, `http`, `intl`, `android_intent_plus`, `package_info_plus`.
+* Renamed Android package to `com.platnova.google_map_location_picker_plus` and iOS podspec to match the new package name.
+
 ## 4.1.7
 
 * Updated deps to work with flutter stable 2.0.1

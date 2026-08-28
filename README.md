@@ -1,8 +1,10 @@
-# google_map_location_picker [![Pub](https://img.shields.io/pub/v/google_map_location_picker.svg)](https://pub.dev/packages/google_map_location_picker)
+# google_map_location_picker_plus [![Pub](https://img.shields.io/pub/v/google_map_location_picker_plus.svg)](https://pub.dev/packages/google_map_location_picker_plus)
 
 Location picker using the official [google_maps_flutter](https://pub.dev/packages/google_maps_flutter).
 
-I made This plugin because google deprecated [Place Picker](https://developers.google.com/places/android-sdk/placepicker).
+This is a maintained fork of [google_map_location_picker](https://github.com/humazed/google_map_location_picker), which has been without a release since 2021 and unmaintained since 2023. This fork updates the Dart/Flutter SDK constraints and dependencies (`google_maps_flutter`, `geolocator`, `provider`, `http`, `intl`, `android_intent_plus`, `package_info_plus`) so the plugin keeps working on current Flutter versions.
+
+The original plugin was made because google deprecated [Place Picker](https://developers.google.com/places/android-sdk/placepicker).
 
 <p>
   <img src="https://raw.githubusercontent.com/humazed/google_map_location_picker/master/art/location_picker.gif" width=265/>
@@ -19,8 +21,8 @@ Pubspec changes:
 ```
       dependencies: 
       
-        google_maps_flutter: ^0.5.30
-        google_map_location_picker: ^3.3.4
+        google_maps_flutter: ^2.14.2
+        google_map_location_picker_plus: ^1.0.0
         flutter_localizations:
           sdk: flutter
 ```
@@ -29,7 +31,7 @@ Pubspec changes:
 For message localization inside the library please add in `MaterialApp`
 
 ```dart
-import 'package:google_map_location_picker/generated/l10n.dart' as location_picker;
+import 'package:google_map_location_picker_plus/generated/l10n.dart' as location_picker;
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 MaterialApp(
@@ -48,7 +50,7 @@ MaterialApp(
 ```
 
 ```dart
-import 'package:google_map_location_picker/google_map_location_picker.dart';
+import 'package:google_map_location_picker_plus/google_map_location_picker_plus.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 LocationResult result = await showLocationPicker(context, apiKey);

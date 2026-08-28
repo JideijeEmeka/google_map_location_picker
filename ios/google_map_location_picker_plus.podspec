@@ -2,15 +2,15 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'google_map_location_picker'
-  s.version          = '2.1.1'
+  s.name             = 'google_map_location_picker_plus'
+  s.version          = '1.0.0'
   s.summary          = '🌍 Map location picker for flutter Based on google_maps_flutter'
   s.description      = <<-DESC
-A new flutter plugin project.
+Maintained fork of google_map_location_picker with updated Dart/Flutter SDK support and dependencies.
                        DESC
-  s.homepage         = 'https://github.com/astravest/google_map_location_picker'
+  s.homepage         = 'https://github.com/JideijeEmeka/google_map_location_picker'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'astravest' => 'dev@astravestapp.com' }
+  s.author           = { 'Emeka Jideije' => 'jideije.emeka@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

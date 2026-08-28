@@ -1,4 +1,4 @@
-package com.astravest.google_map_location_picker
+package com.platnova.google_map_location_picker_plus
 
 import androidx.annotation.NonNull
 

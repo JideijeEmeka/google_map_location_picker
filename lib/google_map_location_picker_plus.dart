@@ -1,4 +1,4 @@
-library google_map_location_picker;
+library google_map_location_picker_plus;
 
 export 'src/google_map_location_picker.dart';
 export 'src/model/location_result.dart';

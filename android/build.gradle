@@ -1,4 +1,4 @@
-group 'com.astravest.google_map_location_picker'
+group 'com.platnova.google_map_location_picker_plus'
 version '1.0-SNAPSHOT'
 
 buildscript {
